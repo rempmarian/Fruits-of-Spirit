@@ -101,8 +101,8 @@
 		62A3D86024BE1EB500497FD5 /* Fruits of Spirit */ = {
 			isa = PBXGroup;
 			children = (
-				62A3D86124BE1EB500497FD5 /* AppDelegate.swift */,
 				62A3D86324BE1EB500497FD5 /* SceneDelegate.swift */,
+				62A3D86124BE1EB500497FD5 /* AppDelegate.swift */,
 				62A3D86524BE1EB500497FD5 /* ViewController.swift */,
 				62A3D86724BE1EB500497FD5 /* Main.storyboard */,
 				62A3D86D24BE1EB600497FD5 /* Assets.xcassets */,
