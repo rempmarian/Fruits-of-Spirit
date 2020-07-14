@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "red-apple-fruits-png-transparent-images-clipart-icons-pngriver-download-free-apple-25236_960_720.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "red-apple-fruits-png-transparent-images-clipart-icons-pngriver-download-free-apple-25236_960_720@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "red-apple-fruits-png-transparent-images-clipart-icons-pngriver-download-free-apple-25236_960_720@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
