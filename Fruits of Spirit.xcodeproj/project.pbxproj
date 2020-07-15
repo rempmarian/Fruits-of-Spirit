@@ -17,6 +17,7 @@
 		62A3D87C24BE1EB600497FD5 /* Fruits_of_SpiritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A3D87B24BE1EB600497FD5 /* Fruits_of_SpiritTests.swift */; };
 		62A3D88724BE1EB600497FD5 /* Fruits_of_SpiritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A3D88624BE1EB600497FD5 /* Fruits_of_SpiritUITests.swift */; };
 		62A3D89524BE524C00497FD5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A3D89424BE524C00497FD5 /* MainViewController.swift */; };
+		62A3D89924BF596600497FD5 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A3D89824BF596600497FD5 /* SupportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		62A3D88624BE1EB600497FD5 /* Fruits_of_SpiritUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits_of_SpiritUITests.swift; sourceTree = "<group>"; };
 		62A3D88824BE1EB600497FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A3D89424BE524C00497FD5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		62A3D89824BF596600497FD5 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				62A3D86124BE1EB500497FD5 /* AppDelegate.swift */,
 				62A3D89424BE524C00497FD5 /* MainViewController.swift */,
 				62A3D86524BE1EB500497FD5 /* ViewController.swift */,
+				62A3D89824BF596600497FD5 /* SupportViewController.swift */,
 				62A3D86724BE1EB500497FD5 /* Main.storyboard */,
 				62A3D86D24BE1EB600497FD5 /* Assets.xcassets */,
 				62A3D86F24BE1EB600497FD5 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				62A3D86C24BE1EB500497FD5 /* Fruits_of_Spirit.xcdatamodeld in Sources */,
 				62A3D86624BE1EB500497FD5 /* ViewController.swift in Sources */,
+				62A3D89924BF596600497FD5 /* SupportViewController.swift in Sources */,
 				62A3D86224BE1EB500497FD5 /* AppDelegate.swift in Sources */,
 				62A3D86424BE1EB500497FD5 /* SceneDelegate.swift in Sources */,
 				62A3D89524BE524C00497FD5 /* MainViewController.swift in Sources */,
