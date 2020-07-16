@@ -7,10 +7,15 @@
 //
 
 import UIKit
+//importAVFoundation
 
 class ViewController: UIViewController {
     
+    //var musicEffect: AVAudioPlayer = AVAudioPlayer()
     
+    //connect both buttons to action
+    //inside @IBAction... {
+    //  musicEffect.play() or musicEffect.stop()
     @IBOutlet weak var codeId: UILabel!
     @IBAction func revealButtTapped(_ sender: UIButton) {
          codeId.text = "672020"
@@ -33,6 +38,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //let musicFile = Bundle.main.path(forResource: "sound2", ofType: ".mp3")
+        //do{
+        //try musicEffect = AVAuioPlayer(contentsOf: URL (fileURLWithPath: musicFile!))
+        //}
+        
+        //catch{
+        //  print(error)
+        //}
     }
 
 
