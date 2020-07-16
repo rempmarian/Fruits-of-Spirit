@@ -7,48 +7,56 @@
 //
 
 import UIKit
-//importAVFoundation
+import AVFoundation
 
 class ViewController: UIViewController {
     
-    //var musicEffect: AVAudioPlayer = AVAudioPlayer()
+    var audioPlayer = AVAudioPlayer()
     
-    //connect both buttons to action
-    //inside @IBAction... {
-    //  musicEffect.play() or musicEffect.stop()
+      override func viewDidLoad() {
+        super.viewDidLoad()
+        let sound = Bundle.main.path(forResource: "river", ofType: "mp3")
+        do {
+          audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+          try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default, options: [AVAudioSession.CategoryOptions.duckOthers])
+        } catch {
+          print(error)
+        }
+      }
+
+    
+    @IBAction func playButton(_ sender: UIButton) {
+        audioPlayer.play()
+    }
+
+    @IBAction func stopButton(_ sender: UIButton) {
+         audioPlayer.stop()
+    }
+    
     @IBOutlet weak var codeId: UILabel!
     @IBAction func revealButtTapped(_ sender: UIButton) {
          codeId.text = "672020"
     }
-    
+
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
-    
+
     @IBAction func goButtTapped(_ sender: UIButton) {
+        let correctID = "ID # 672020"
         if let name = idTextField.text {
-            if name == "672020"{
-                performSegue(withIdentifier: "672020", sender: self)
-            }
-            else{
-                errorLabel.text = "Sorry wrong ID"
+            if name == correctID {
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "first")
+                    self.present(vc!, animated: true)
+    } else {
+            errorLabel.text = "Wrong ID number!"
+                }
             }
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        //let musicFile = Bundle.main.path(forResource: "sound2", ofType: ".mp3")
-        //do{
-        //try musicEffect = AVAuioPlayer(contentsOf: URL (fileURLWithPath: musicFile!))
-        //}
-        
-        //catch{
-        //  print(error)
-        //}
-    }
+    
 
 
-}
+
+
 
