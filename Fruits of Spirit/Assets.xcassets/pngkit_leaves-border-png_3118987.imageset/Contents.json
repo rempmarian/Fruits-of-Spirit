@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "appback.png",
+      "filename" : "pngkit_leaves-border-png_3118987.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "appback@2x.png",
+      "filename" : "pngkit_leaves-border-png_3118987@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "appback@3x.png",
+      "filename" : "pngkit_leaves-border-png_3118987@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

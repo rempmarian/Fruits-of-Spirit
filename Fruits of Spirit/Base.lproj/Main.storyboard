@@ -60,12 +60,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngkit_leaves-border-png_3118987" translatesAutoresizingMaskIntoConstraints="NO" id="LlA-d0-8Fd">
+                                <rect key="frame" x="2" y="79" width="529" height="763"/>
+                                <rect key="contentStretch" x="0.25" y="0.0" width="1" height="1"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.89299116349999996" green="0.97200375169999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="tJW-DQ-OId" firstAttribute="top" secondItem="9fS-C6-Z4m" secondAttribute="bottom" constant="8" id="3D7-Sg-pYa"/>
                             <constraint firstItem="wsI-8y-6dq" firstAttribute="trailing" secondItem="35o-qW-qBf" secondAttribute="trailing" constant="105" id="6Mg-4u-GkL"/>
                             <constraint firstItem="9fS-C6-Z4m" firstAttribute="leading" secondItem="wsI-8y-6dq" secondAttribute="leading" constant="175" id="7p2-YH-Ceg"/>
+                            <constraint firstAttribute="trailing" secondItem="LlA-d0-8Fd" secondAttribute="trailing" constant="-117" id="811-vx-vff"/>
                             <constraint firstItem="tJW-DQ-OId" firstAttribute="leading" secondItem="wsI-8y-6dq" secondAttribute="leading" constant="111" id="BHE-lV-RLd"/>
                             <constraint firstItem="BbC-CG-cTt" firstAttribute="top" secondItem="tJW-DQ-OId" secondAttribute="bottom" constant="60" id="S2E-Eb-sLl"/>
                             <constraint firstItem="wsI-8y-6dq" firstAttribute="bottom" secondItem="BbC-CG-cTt" secondAttribute="bottom" constant="371" id="U7b-J6-kdY"/>
@@ -73,10 +78,13 @@
                             <constraint firstItem="rQS-hi-2nB" firstAttribute="trailing" secondItem="wsI-8y-6dq" secondAttribute="trailing" id="Wl8-vC-HCS"/>
                             <constraint firstItem="rQS-hi-2nB" firstAttribute="top" secondItem="wsI-8y-6dq" secondAttribute="top" constant="50" id="ZP4-YK-b4D"/>
                             <constraint firstItem="rQS-hi-2nB" firstAttribute="leading" secondItem="wsI-8y-6dq" secondAttribute="leading" id="chX-FN-2cs"/>
+                            <constraint firstItem="LlA-d0-8Fd" firstAttribute="top" secondItem="wsI-8y-6dq" secondAttribute="top" constant="79" id="e7l-Qb-rvs"/>
                             <constraint firstItem="9fS-C6-Z4m" firstAttribute="leading" secondItem="BbC-CG-cTt" secondAttribute="leading" id="e9z-Q8-VwZ"/>
                             <constraint firstItem="35o-qW-qBf" firstAttribute="leading" secondItem="wsI-8y-6dq" secondAttribute="leading" constant="105" id="hVb-e5-Guk"/>
                             <constraint firstItem="wsI-8y-6dq" firstAttribute="bottom" secondItem="35o-qW-qBf" secondAttribute="bottom" constant="323" id="neC-dy-s34"/>
+                            <constraint firstAttribute="bottom" secondItem="LlA-d0-8Fd" secondAttribute="bottom" id="o0O-6v-1tQ"/>
                             <constraint firstItem="BbC-CG-cTt" firstAttribute="top" secondItem="tJW-DQ-OId" secondAttribute="bottom" constant="60" id="q42-Z2-IWv"/>
+                            <constraint firstItem="LlA-d0-8Fd" firstAttribute="leading" secondItem="wsI-8y-6dq" secondAttribute="leading" constant="2" id="sCb-bH-qf2"/>
                             <constraint firstItem="tJW-DQ-OId" firstAttribute="centerX" secondItem="BbC-CG-cTt" secondAttribute="centerX" id="uqV-vI-ylJ"/>
                             <constraint firstItem="9fS-C6-Z4m" firstAttribute="top" secondItem="rQS-hi-2nB" secondAttribute="bottom" constant="117" id="vI2-Nl-0bD"/>
                             <constraint firstItem="9fS-C6-Z4m" firstAttribute="centerX" secondItem="tJW-DQ-OId" secondAttribute="centerX" id="xEF-Sq-6XC"/>
@@ -488,6 +496,7 @@
         <image name="Screen Shot 2020-07-14 at 2.10.03 PM" width="139" height="179"/>
         <image name="backward.fill" catalog="system" width="128" height="79"/>
         <image name="camera" catalog="system" width="128" height="96"/>
+        <image name="pngkit_leaves-border-png_3118987" width="341" height="475"/>
         <image name="pngkit_orange-png_267361" width="288.5" height="216.5"/>
         <image name="red-apple-fruits-png-transparent-images-clipart-icons-pngriver-download-free-apple-25236_960_720" width="425" height="425"/>
     </resources>
